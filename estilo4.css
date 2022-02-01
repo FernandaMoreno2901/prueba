@@ -1,0 +1,93 @@
+#particles-js{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.arriba{
+    background-color: #434ff3;
+    line-height: 50px;
+    font-size: 1.0em;
+}
+
+body{
+    margin: 0;
+    background-color: rgb(173, 218, 214);
+    
+    
+}
+footer{
+    background-color: #434ff3
+}
+
+
+.texto-encima{
+    position: absolute;
+    top: 190px;
+    left: 30px;
+    color: rgb(34, 3, 3);
+    font-size: 4.0em; /*tamaño letra*/  
+    text-align: center;
+}
+
+
+.parrafo{
+    margin:auto auto; /*todo se centra*/
+    width: 900px; /*ancho del cuadro blanco */
+    height: 990px; /*altura del cuadro blanco*/
+    padding: 10px 40px; /*tamaño de ambos lados del cuadro*/
+    font-size: 20px; /*tamaño letra*/
+    line-height: 1.5; /*justificado letra */
+    background: rgb(224, 238, 116);
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    border-radius: 40px; /*para las ezquinas*/
+    text-align: justify;
+}
+.parrafo img{
+    width: 740px;
+    border-radius: 10px; /*bordes de la foto*/
+    float: right;
+    margin-right: 80px; /*espacio entre la imagen y el texto*/
+    margin-block-start: 30px; /*acomodar el texto y la imagen*/
+}
+
+.parrafo2{
+    margin:auto auto; /*todo se centra*/
+    width: 900px; /*ancho del cuadro blanco */
+    height: 450px; /*altura del cuadro blanco*/
+    padding: 10px 40px; /*tamaño de ambos lados del cuadro*/
+    font-size: 20px; /*tamaño letra*/
+    line-height: 1.5; /*justificado letra */
+    background: rgb(224, 238, 116);
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    border-radius: 40px; /*para las ezquinas*/
+    text-align: justify;
+}
+.parrafo2 img{
+    width: 740px;
+    border-radius: 10px; /*bordes de la foto*/
+    float: right;
+    margin-right: 80px; /*espacio entre la imagen y el texto*/
+    margin-block-start: 30px; /*acomodar el texto y la imagen*/
+}
+
+
+#siguenos{
+    display: inline-block;
+    width: 30%;
+    
+}
+
+#terminos{
+    display: inline-block;
+    width: 30%; 
+    line-height: 1.5;
+}
+
+#autor{
+    display: inline-block;
+    width: 38%; 
+    line-height: 1.5;
+
+}
